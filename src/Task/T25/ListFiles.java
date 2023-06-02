@@ -34,11 +34,11 @@ public class ListFiles {
             File arr[] = maindir.listFiles();
 
             System.out.println(
-                    "**********************************************");
+                    "************************************************");
             System.out.println(
                     "Files from main directory : " + maindir);
             System.out.println(
-                    "**********************************************");
+                    "************************************************");
 
             print(arr, 0);
         }
