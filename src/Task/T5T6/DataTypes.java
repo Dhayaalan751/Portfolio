@@ -19,7 +19,6 @@ public class DataTypes {
         System.out.println(integer);
         System.out.println("Enter long:");
         long lon = s.nextLong();
-        long r = 0;
         System.out.println(lon);
         System.out.println("Enter float:");
         float floa = s.nextFloat();
@@ -69,6 +68,7 @@ public class DataTypes {
         result = 6 / 2 * 3 * 2 / 3;
         System.out.println("6 / 2 * 3 * 2 / 3 = " +result);
         System.out.println(x);
+        System.out.println(2/3);
         x=2;
         result = x++ + x++ * --x / x++ - --x + 3 >> 1 | 2;
 
